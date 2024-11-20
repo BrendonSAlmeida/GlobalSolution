@@ -1,0 +1,111 @@
+body {
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    background-color: #00140eda;
+    color: #fff;
+    max-width: 80%;
+    background-image: url(/images/plantar.png);
+    background-repeat: no-repeat;
+    background-position-x: 80%;
+    background-position-y: center;
+    background-attachment: fixed;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2vh 0 0 0;
+    padding: 20px;
+    background-color: #00000000;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0px 90px 0px 0px;
+    padding: 0;
+    font-size: 1.4em;
+}
+
+nav ul li {
+    margin: 0 50px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+li :hover {
+    color: #17ee04;
+}
+
+h1, h3 {
+    color: #2cbb1f;
+}
+main {
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 80px);
+    text-align: left;
+    margin: -15vh 0 0 0;
+    
+}
+
+.content {
+    max-width: 600px;
+    margin: 17vh 0 0 10vw;
+    
+}
+
+.content h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.content h2 {
+    font-size: 36px;
+    margin: 10px 0;
+}
+
+.content p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 20px 0;
+}
+
+.veja-o-video{
+    margin-bottom: -10px;
+}
+
+iframe {
+    margin: 5% 0;
+    border-radius: 10px;
+}
+
+.vejaMais{
+    text-decoration: none;
+    color: #fff;
+    background-color: #28a745;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.read-more:hover {
+    background-color: #218838;
+}
